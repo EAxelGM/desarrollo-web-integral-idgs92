@@ -30,6 +30,11 @@ class AlumnosFactory extends Factory
       'gen' => $man_or_woman=='Hombre' ? 'Masculino' : 'Femenino',
       'fn' => $this->faker->date('Y-m-d', 'now'),
       'email' => $this->faker->unique()->safeEmail(),
+      /**
+       * el # es un numero aleatorio 
+       * el ? es para un caracter aleatorio
+       * ejemplo utvt##???? -> utvt23njie
+       */
       'password' => bcrypt('password'),
     ];
   }
