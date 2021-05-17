@@ -25,9 +25,9 @@ class AlumnosController extends Controller
     //
   }
   
-  public function show(Alumnos $alumnos)
+  public function show(Alumnos $alumno)
   {
-    //
+    return $alumno;
   }
   
   public function edit(Alumnos $alumnos)
