@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Web\AlumnosController as Alumnos;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('alumnos', Alumnos::class);
+Route::get('alumnos-ajax', [Alumnos::class, 'getAlumnos'])->name('alumnos-list');

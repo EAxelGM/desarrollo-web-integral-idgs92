@@ -33,7 +33,7 @@ class AlumnosFactory extends Factory
       /**
        * el # es un numero aleatorio 
        * el ? es para un caracter aleatorio
-       * ejemplo utvt##???? -> utvt23njie
+       * ejemplo $this->faker->bothify(utvt##????) RESULTADO -> utvt23njie;
        */
       'password' => bcrypt('password'),
     ];
