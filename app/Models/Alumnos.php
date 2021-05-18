@@ -14,7 +14,9 @@ class Alumnos extends Model
       'app',
       'gen',
       'fn',
+      'email',
       'password',
+      'activo',
     ];
 
     protected $hidden = [

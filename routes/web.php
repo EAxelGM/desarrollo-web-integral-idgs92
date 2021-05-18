@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 Route::resource('alumnos', Alumnos::class);
 Route::get('alumnos-ajax', [Alumnos::class, 'getAlumnos'])->name('alumnos-list');
+Route::get('download-pdf-report-alumnos', [Alumnos::class, 'getPdfAlumnos'])->name('alumnos-pdf');

@@ -22,6 +22,7 @@ class CreateAlumnosTable extends Migration
             $table->string('fn');
             $table->string('email')->unique();
             $table->string('password');
+            $table->string('activo');
             $table->timestamps();
         });
     }
