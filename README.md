@@ -7,7 +7,7 @@ despues necesitamos copiar o renombar el archivo <code>.env.example</code> y lla
 - <code>php artisan migrate</code>
 - <code>php artisan db:seed</code>
 - <code>php artisan serve</code>
-El proyecto estará funcionando a la perfeccion, cualquier duda, envie un mensaje a mi <a href="https://wa.me/+5217221131823">WhatsApp</a>
+El proyecto estará funcionando a la perfeccion, cualquier duda, envie un mensaje a mi <a href="https://wa.me/+5217221131823" target="_blank">WhatsApp</a>
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
