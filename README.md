@@ -1,3 +1,9 @@
+<center><h1>INSTALACION DEL PROYECTO</h1></center>
+<br><br>
+Primero necesitamos abrir una consola, despues copiar el siguiente comando
+<code>git clone https://github.com/EAxelGM/desarrollo-web-integral-idgs92.git</code>
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
