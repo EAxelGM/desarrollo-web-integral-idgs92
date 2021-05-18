@@ -1,12 +1,14 @@
 ## Instalacion del proyecto
 Primero necesitamos abrir una consola, despues copiar el siguiente comando
 - <code>git clone https://github.com/EAxelGM/desarrollo-web-integral-idgs92.git</code>
+
 despues necesitamos copiar o renombar el archivo <code>.env.example</code> y llamarlo <code>.env</code>, configuras el <code>.env</code> con tus accesos a base de datos, despues ya una vez clonado el proyecto hacemos los siguientes comandos.
 - <code>cd desarrollo-web-integral-idgs92</code>
 - <code>composer install</code>
 - <code>php artisan migrate</code>
 - <code>php artisan db:seed</code>
 - <code>php artisan serve</code>
+
 El proyecto estará funcionando a la perfeccion, cualquier duda, envie un mensaje a mi <a href="https://wa.me/+5217221131823" target="_blank">WhatsApp</a>
 
 
